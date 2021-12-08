@@ -273,3 +273,90 @@ p.enterprise-light{
 }
 
 /* FINE PRIMO CONTENITORE */
+
+/* SECONDO CONTENITORE */
+
+.container-seconda-parte{ 
+    margin: 150px auto;
+    height: 500px;
+    width: calc(100% - 30px);
+}
+
+.image-partner{
+    float: left;
+    width: 60%;
+    height: 500px;
+    background-image: url('img/partner.png');
+    background-size: cover;
+}
+
+.text-second{
+    float: right;
+    width: 40%;
+    padding: 30px 65px;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.text-second p{
+    margin-bottom: 40px;
+}
+
+.text-second h2{
+    margin-bottom: 20px;
+}
+
+/* FINE SECONDO CONTENITORE */
+
+/* INIZIO TERZO CONTENITORE */
+
+.container-terza-parte{
+    height: 1000px;
+    margin: 150px auto;
+}
+
+.title.third h2{
+    font-size: 30px;
+}
+
+.container-terza-parte .title{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-terza-parte .frame-third{
+    width: 30%;
+    height: 500px;
+    padding: 15px;
+}
+
+.frame-third.col-center{
+    margin: 0 5%;
+}
+
+.frame-third{
+    float: left;
+}
+
+.image-third img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-third h3{
+    margin-bottom: 20px;
+}
+
+.text-third-black{
+    color: #000;
+}
+
+/* FINE TERZO CONTENITORE */
