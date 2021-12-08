@@ -1,0 +1,275 @@
+/* INIZIO COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* FINE COMMON */
+
+/* INIZIO HEADER */
+
+header{
+    background-color: #fff;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 15px;
+}
+
+.nav-bar.clearfix{
+    width: 100%;
+}
+
+.nav-bar-sx{
+    float: left;
+}
+
+.nav-bar-dx{
+    float: right;
+}
+
+nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.nav-bar-logo:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #0070e0;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+/* FINE HEADER */
+
+/* INIZIO JUMBOTRON */
+
+#jumbotron{
+    background-color: #99c0ff;
+    height: 700px;
+}
+
+.title-jumbotron{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 150px;
+}
+
+.text-jumbotron{
+    width: 30%;
+    float: left;
+}
+
+.image-jumbotron{
+    float: right;
+}
+
+.image{
+    width: 700px;
+    margin-top: 50px;
+}
+
+.btn-big{
+    padding: 16px 32px;
+}
+
+.text-jumbotron p{
+    margin: 30px 0px;
+}
+
+.fas{
+    color: #000;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+/* FINE JUMBOTRON */
+
+/* INIZIO MAIN */
+
+/* PRIMO CONTENITORE */
+
+.container-prima-parte{
+    height: 100%;
+    margin: 150px auto;
+}
+
+#prima h2{
+    font-size: 30px;
+}
+
+.pallini{
+    margin-top: 30px;
+}
+
+.checkbox .pallino{ 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.checkbox .pallino.blu{
+    border: solid 5px #0070e0; 
+}
+
+.checkbox .pallino.bianco{
+    border: solid 1px #ccc;
+    margin-left: 15px;
+}
+
+.container-prima-parte .col{
+    min-height: 1000px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.container-prima-parte .title{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+i.fas.fa-check{
+    color: #0070e0;
+}
+
+.centrale-col-sx{
+    padding: 15px;
+}
+
+.type{
+    padding: 15px 0px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+i.far.fa-user.one{
+    margin-right: 10px;
+}
+
+.offer{
+    margin-top: 20px;
+}
+
+.offer-title{
+    font-size: 20px;
+}
+
+p.price{
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+p.rate.text-small{
+    color: #ddd;
+}
+
+.offer-list{
+    margin: 40px 0px;
+}
+
+.offer-list li{
+    margin: 10px 0px;
+}
+
+.now{
+    color: #0070e0;
+}
+
+.highlights{
+    margin: 40px 0px;
+}
+
+h4{
+    margin: 20px 0px;
+}
+
+.highlights li{
+    margin: 10px 0px;
+}
+
+.container-prima-parte .col-center{
+    margin: 0 5%;
+}
+
+.centrale{
+    height: 100%;
+    padding: 15px;
+}
+
+i.far.fa-building{
+    margin-right: 10px;
+}
+
+.first.team{
+    border: 1px solid #ccc;
+}
+
+.content-team{
+    padding: 15px;
+}
+
+p.enterprise-bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.enterprise-light{
+    font-size: 16px;
+}
+
+.btn-office{
+    float: right;
+    margin-top: -55px;
+}
+
+/* FINE PRIMO CONTENITORE */
