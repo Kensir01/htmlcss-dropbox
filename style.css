@@ -360,3 +360,233 @@ p.enterprise-light{
 }
 
 /* FINE TERZO CONTENITORE */
+/* INIZIO QUARTO CONTENITORE */
+
+.container-quarta-parte{
+    margin: 150px auto;
+}
+
+.title.fourth h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.title.fourth a{
+    color: #0070e0;
+}
+
+.container-quarta-parte .title{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+/* FINE QUARTO CONTENITORE */
+
+/* INIZIO QUINTO CONTENITORE */
+
+.container-quinta-parte{
+    background-color: aquamarine;
+}
+
+.col-side-fifth{
+    float: left;
+    width: 30vw;
+    height: 30vw;
+}
+
+.col-side-fifth .item{
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+    
+}
+
+.col-center-fifth{
+    float: left;
+    width: calc(100% - 60vw);
+    height: 30vw;
+    overflow-y: auto;
+    background-color: #ccc;
+    margin: 0px;
+    padding: 40px;
+}
+
+.logo-designit img{
+    width: 30%;
+}
+
+hr.designit-line{
+    width: 20%;
+    color: #ddd;
+    margin: 20px 0px 50px;
+}
+
+.description p{
+    margin: 40px 0px;
+}
+
+.item.green{
+    background-color: #a2d39b;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-image: url('img/designit.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.brown{
+    background-color: #61082b;
+    background-image: url('img/arizona_state_university.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.blue{
+    background-color: #0093ce;
+    background-image: url('img/university_of_florida.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.red{
+    background-color: #ff1c1c;
+    background-image: url('img/topps.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.red-2{
+    background-color: #d5001f;
+    background-image: url('img/world_bicycle_relief.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.lightblue{
+    background-color: #b4d0e7;
+    background-image: url('img/hearst_corp.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.blue-2{
+    background-color: #0d2481;
+    background-image: url('img/lonely_planet.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item.yellow{
+    background-color: #ffd830;
+    background-image: url('img/clear_channel.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* FINE QUINTO CONTENITORE */
+
+/* INIZIO SESTO CONTENITORE */
+
+.container-sesta-parte{
+    background-color: #b4d0e7;
+    height: 250px;
+    padding: 80px;
+}
+
+.text-fifth{
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+
+.text-fifth h2{
+    font-size: 30px;
+    color: #61082b;
+}
+
+.btn-sixth .btn-white-sixth{
+    float: right;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 64px;
+}
+
+/* FINE SESTO CONTENITORE */
+
+/* INIZIO SETTIMO CONTENITORE*/
+
+
+/* FINE SETTIMO CONTENTIORE*/
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer{
+    background-color: #000;
+}
+
+.col-footer{
+    color: #fff;
+    height: 100%;
+    width: calc(90%/5);
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+.title-footer{
+    margin-top: 50px;
+}
+
+h2.title-footer{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li.link-footer{
+    display: block;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.link-footer a{
+    padding: 0px;
+}
+
+.footer-line{
+    width: 60%;
+}
+
+.languages{
+    margin-top: 100px;
+}
+
+i.fas.fa-globe-europe{
+    color: #fff;
+}
+
+.italiano span{
+    color: #ddd;
+    font-size: 13px;
+}
+
+i.fas.fa-sort-up{
+    color: #ddd;
+    font-size: 13px;
+}
+
+.italiano{
+    margin: 40px 0px;
+}
+
+/* FINE FOOTER */
