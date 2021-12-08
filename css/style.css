@@ -1,17 +1,87 @@
+/* INIZIO COMMON */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-.contenitore-header {
-    width: 100%;
-    margin: 0 auto;
-    height: 100px;
-    background-color: lightgreen;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contenitore{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* FINE COMMON */
+
+/* INIZIO HEADER */
+
+header{
+    background-color: #fff;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 15px;
+}
+
+.nav-lato.clearfix{
+    width: 100%;
+}
+
+.nav-lato-sx{
+    float: left;
+}
+
+.nav-lato-dx{
+    float: right;
+}
+
+nav img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.nav-lato-logo:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bottone{
+    background-color: #0070e0;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+
+/* FINE HEADER */
 
 .contenitore-jumbotron {
     width: 100%;
@@ -26,7 +96,8 @@
 
 .contenitore {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 1180px;
 
 }
 
@@ -78,9 +149,6 @@
 
 }
 
-.clearfix {
-    clear:both
-}
 
 #contenitorelungocentro {
     width: 80%;
